@@ -1,2 +1,0 @@
-# PersonalPlatform
-PersonalPlatform
