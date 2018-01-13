@@ -123,6 +123,60 @@ CppModule/fast:
 	$(MAKE) -f CMakeFiles/CppModule.dir/build.make CMakeFiles/CppModule.dir/build
 .PHONY : CppModule/fast
 
+RuntimeException.o: RuntimeException.cpp.o
+
+.PHONY : RuntimeException.o
+
+# target to build an object file
+RuntimeException.cpp.o:
+	$(MAKE) -f CMakeFiles/CppModule.dir/build.make CMakeFiles/CppModule.dir/RuntimeException.cpp.o
+.PHONY : RuntimeException.cpp.o
+
+RuntimeException.i: RuntimeException.cpp.i
+
+.PHONY : RuntimeException.i
+
+# target to preprocess a source file
+RuntimeException.cpp.i:
+	$(MAKE) -f CMakeFiles/CppModule.dir/build.make CMakeFiles/CppModule.dir/RuntimeException.cpp.i
+.PHONY : RuntimeException.cpp.i
+
+RuntimeException.s: RuntimeException.cpp.s
+
+.PHONY : RuntimeException.s
+
+# target to generate assembly for a file
+RuntimeException.cpp.s:
+	$(MAKE) -f CMakeFiles/CppModule.dir/build.make CMakeFiles/CppModule.dir/RuntimeException.cpp.s
+.PHONY : RuntimeException.cpp.s
+
+SocketConn.o: SocketConn.cpp.o
+
+.PHONY : SocketConn.o
+
+# target to build an object file
+SocketConn.cpp.o:
+	$(MAKE) -f CMakeFiles/CppModule.dir/build.make CMakeFiles/CppModule.dir/SocketConn.cpp.o
+.PHONY : SocketConn.cpp.o
+
+SocketConn.i: SocketConn.cpp.i
+
+.PHONY : SocketConn.i
+
+# target to preprocess a source file
+SocketConn.cpp.i:
+	$(MAKE) -f CMakeFiles/CppModule.dir/build.make CMakeFiles/CppModule.dir/SocketConn.cpp.i
+.PHONY : SocketConn.cpp.i
+
+SocketConn.s: SocketConn.cpp.s
+
+.PHONY : SocketConn.s
+
+# target to generate assembly for a file
+SocketConn.cpp.s:
+	$(MAKE) -f CMakeFiles/CppModule.dir/build.make CMakeFiles/CppModule.dir/SocketConn.cpp.s
+.PHONY : SocketConn.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +213,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CppModule"
+	@echo "... RuntimeException.o"
+	@echo "... RuntimeException.i"
+	@echo "... RuntimeException.s"
+	@echo "... SocketConn.o"
+	@echo "... SocketConn.i"
+	@echo "... SocketConn.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

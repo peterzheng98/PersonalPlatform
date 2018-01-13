@@ -82,6 +82,21 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/peterzheng/GitHubProjects/PersonalPlatform/CppModule/Include.h">
+			<Option target="CppModule"/>
+		</Unit>
+		<Unit filename="/Users/peterzheng/GitHubProjects/PersonalPlatform/CppModule/RuntimeException.cpp">
+			<Option target="CppModule"/>
+		</Unit>
+		<Unit filename="/Users/peterzheng/GitHubProjects/PersonalPlatform/CppModule/RuntimeException.h">
+			<Option target="CppModule"/>
+		</Unit>
+		<Unit filename="/Users/peterzheng/GitHubProjects/PersonalPlatform/CppModule/SocketConn.cpp">
+			<Option target="CppModule"/>
+		</Unit>
+		<Unit filename="/Users/peterzheng/GitHubProjects/PersonalPlatform/CppModule/SocketConn.h">
+			<Option target="CppModule"/>
+		</Unit>
 		<Unit filename="/Users/peterzheng/GitHubProjects/PersonalPlatform/CppModule/main.cpp">
 			<Option target="CppModule"/>
 		</Unit>

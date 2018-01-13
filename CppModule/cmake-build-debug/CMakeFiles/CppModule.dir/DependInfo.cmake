@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/peterzheng/GitHubProjects/PersonalPlatform/CppModule/RuntimeException.cpp" "/Users/peterzheng/GitHubProjects/PersonalPlatform/CppModule/cmake-build-debug/CMakeFiles/CppModule.dir/RuntimeException.cpp.o"
+  "/Users/peterzheng/GitHubProjects/PersonalPlatform/CppModule/SocketConn.cpp" "/Users/peterzheng/GitHubProjects/PersonalPlatform/CppModule/cmake-build-debug/CMakeFiles/CppModule.dir/SocketConn.cpp.o"
   "/Users/peterzheng/GitHubProjects/PersonalPlatform/CppModule/main.cpp" "/Users/peterzheng/GitHubProjects/PersonalPlatform/CppModule/cmake-build-debug/CMakeFiles/CppModule.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

@@ -81,17 +81,69 @@ CMakeFiles/CppModule.dir/main.cpp.o.provides: CMakeFiles/CppModule.dir/main.cpp.
 CMakeFiles/CppModule.dir/main.cpp.o.provides.build: CMakeFiles/CppModule.dir/main.cpp.o
 
 
+CMakeFiles/CppModule.dir/SocketConn.cpp.o: CMakeFiles/CppModule.dir/flags.make
+CMakeFiles/CppModule.dir/SocketConn.cpp.o: ../SocketConn.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/peterzheng/GitHubProjects/PersonalPlatform/CppModule/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CppModule.dir/SocketConn.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppModule.dir/SocketConn.cpp.o -c /Users/peterzheng/GitHubProjects/PersonalPlatform/CppModule/SocketConn.cpp
+
+CMakeFiles/CppModule.dir/SocketConn.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppModule.dir/SocketConn.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/peterzheng/GitHubProjects/PersonalPlatform/CppModule/SocketConn.cpp > CMakeFiles/CppModule.dir/SocketConn.cpp.i
+
+CMakeFiles/CppModule.dir/SocketConn.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppModule.dir/SocketConn.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/peterzheng/GitHubProjects/PersonalPlatform/CppModule/SocketConn.cpp -o CMakeFiles/CppModule.dir/SocketConn.cpp.s
+
+CMakeFiles/CppModule.dir/SocketConn.cpp.o.requires:
+
+.PHONY : CMakeFiles/CppModule.dir/SocketConn.cpp.o.requires
+
+CMakeFiles/CppModule.dir/SocketConn.cpp.o.provides: CMakeFiles/CppModule.dir/SocketConn.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CppModule.dir/build.make CMakeFiles/CppModule.dir/SocketConn.cpp.o.provides.build
+.PHONY : CMakeFiles/CppModule.dir/SocketConn.cpp.o.provides
+
+CMakeFiles/CppModule.dir/SocketConn.cpp.o.provides.build: CMakeFiles/CppModule.dir/SocketConn.cpp.o
+
+
+CMakeFiles/CppModule.dir/RuntimeException.cpp.o: CMakeFiles/CppModule.dir/flags.make
+CMakeFiles/CppModule.dir/RuntimeException.cpp.o: ../RuntimeException.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/peterzheng/GitHubProjects/PersonalPlatform/CppModule/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CppModule.dir/RuntimeException.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppModule.dir/RuntimeException.cpp.o -c /Users/peterzheng/GitHubProjects/PersonalPlatform/CppModule/RuntimeException.cpp
+
+CMakeFiles/CppModule.dir/RuntimeException.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppModule.dir/RuntimeException.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/peterzheng/GitHubProjects/PersonalPlatform/CppModule/RuntimeException.cpp > CMakeFiles/CppModule.dir/RuntimeException.cpp.i
+
+CMakeFiles/CppModule.dir/RuntimeException.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppModule.dir/RuntimeException.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/peterzheng/GitHubProjects/PersonalPlatform/CppModule/RuntimeException.cpp -o CMakeFiles/CppModule.dir/RuntimeException.cpp.s
+
+CMakeFiles/CppModule.dir/RuntimeException.cpp.o.requires:
+
+.PHONY : CMakeFiles/CppModule.dir/RuntimeException.cpp.o.requires
+
+CMakeFiles/CppModule.dir/RuntimeException.cpp.o.provides: CMakeFiles/CppModule.dir/RuntimeException.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CppModule.dir/build.make CMakeFiles/CppModule.dir/RuntimeException.cpp.o.provides.build
+.PHONY : CMakeFiles/CppModule.dir/RuntimeException.cpp.o.provides
+
+CMakeFiles/CppModule.dir/RuntimeException.cpp.o.provides.build: CMakeFiles/CppModule.dir/RuntimeException.cpp.o
+
+
 # Object files for target CppModule
 CppModule_OBJECTS = \
-"CMakeFiles/CppModule.dir/main.cpp.o"
+"CMakeFiles/CppModule.dir/main.cpp.o" \
+"CMakeFiles/CppModule.dir/SocketConn.cpp.o" \
+"CMakeFiles/CppModule.dir/RuntimeException.cpp.o"
 
 # External object files for target CppModule
 CppModule_EXTERNAL_OBJECTS =
 
 CppModule: CMakeFiles/CppModule.dir/main.cpp.o
+CppModule: CMakeFiles/CppModule.dir/SocketConn.cpp.o
+CppModule: CMakeFiles/CppModule.dir/RuntimeException.cpp.o
 CppModule: CMakeFiles/CppModule.dir/build.make
 CppModule: CMakeFiles/CppModule.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/peterzheng/GitHubProjects/PersonalPlatform/CppModule/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable CppModule"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/peterzheng/GitHubProjects/PersonalPlatform/CppModule/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable CppModule"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CppModule.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,6 +152,8 @@ CMakeFiles/CppModule.dir/build: CppModule
 .PHONY : CMakeFiles/CppModule.dir/build
 
 CMakeFiles/CppModule.dir/requires: CMakeFiles/CppModule.dir/main.cpp.o.requires
+CMakeFiles/CppModule.dir/requires: CMakeFiles/CppModule.dir/SocketConn.cpp.o.requires
+CMakeFiles/CppModule.dir/requires: CMakeFiles/CppModule.dir/RuntimeException.cpp.o.requires
 
 .PHONY : CMakeFiles/CppModule.dir/requires
 

@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/CppModule.dir/main.cpp.o"
+  "CMakeFiles/CppModule.dir/SocketConn.cpp.o"
+  "CMakeFiles/CppModule.dir/RuntimeException.cpp.o"
   "CppModule.pdb"
   "CppModule"
 )

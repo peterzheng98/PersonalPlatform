@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/peterzheng/GitHubProjects/PersonalPlatform/CppModule/Include.h
+iostream
+-
+sstream
+-
+
+/Users/peterzheng/GitHubProjects/PersonalPlatform/CppModule/RuntimeException.cpp
+RuntimeException.h
+/Users/peterzheng/GitHubProjects/PersonalPlatform/CppModule/RuntimeException.h
+
+/Users/peterzheng/GitHubProjects/PersonalPlatform/CppModule/RuntimeException.h
+exception
+-
+Include.h
+/Users/peterzheng/GitHubProjects/PersonalPlatform/CppModule/Include.h
+
+/Users/peterzheng/GitHubProjects/PersonalPlatform/CppModule/SocketConn.cpp
+SocketConn.h
+/Users/peterzheng/GitHubProjects/PersonalPlatform/CppModule/SocketConn.h
+
+/Users/peterzheng/GitHubProjects/PersonalPlatform/CppModule/SocketConn.h
+Include.h
+/Users/peterzheng/GitHubProjects/PersonalPlatform/CppModule/Include.h
+
+/Users/peterzheng/GitHubProjects/PersonalPlatform/CppModule/main.cpp
+SocketConn.h
+/Users/peterzheng/GitHubProjects/PersonalPlatform/CppModule/SocketConn.h
+RuntimeException.h
+/Users/peterzheng/GitHubProjects/PersonalPlatform/CppModule/RuntimeException.h
+cstdio
+-
+
