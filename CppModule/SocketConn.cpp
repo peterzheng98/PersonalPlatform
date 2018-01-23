@@ -39,3 +39,33 @@ IP &IP::operator=(const IP &o) {
     p._addr = o._addr;
     return p;
 }
+
+const char *IP::toString(int d) {
+    std::string str = this->toString();
+    char *ret = new char[str.length() + 1];
+    for (int i = 0; i < str.length(); i++)
+        ret[i] = str[i];
+    return ret;
+}
+
+_Uint IP::toUnsignedInt() {
+    return _addr;
+}
+
+SocketConnection::SocketConnection(IP ip, in_port_t Port, bool debugflag = false) {
+
+}
+
+void SocketConnection::getConn() {
+
+}
+
+void SocketConnection::getData() {
+
+}
+
+void SocketConnection::sendData() {
+
+}
+
+

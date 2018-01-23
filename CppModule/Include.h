@@ -7,6 +7,15 @@
 
 #include <iostream>
 #include <sstream>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <arpa/inet.h>
+#include <unistd.h>
+#include <sys/shm.h>
+#include <thread>
+#include <list>
+
 
 #define _Uint unsigned int
 #define _NULL_STRING "NULL"

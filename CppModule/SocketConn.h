@@ -33,16 +33,46 @@ public:
      * 返回值：字符串或者"NULL"（代表未存储任何IP地址）
      */
     std::string toString();
+    const char* toString(int d);
 
+    /*
+     * 函数名称：toUnsignedInt()
+     * 作用：转换成UnsignedInt
+     */
+    _Uint toUnsignedInt();
     /*
      * 赋值函数
      */
     IP &operator=(const IP &o);
+
 };
 
 
 class SocketConnection {
 private:
+    int s;
+    struct sockaddr_in servaddr;
+    socklen_t len;
+    std::list li;
+    bool debuggable;
+public:
+    /*
+     * 默认构造函数
+     * 参数：IP类型ip, 端口号：unsigned short
+     */
+    SocketConnection(IP ip, in_port_t Port, bool debugflag = false);
+    /*
+     * 连接函数：要求独立线程运行（detach）
+     */
+    void getConn();
+    /*
+     * 获取信息函数：要求独立线程运行（Detach）
+     */
+    void getData();
+    /*
+     * 传递信息函数：要求独立线程运行（detach）
+     */
+    void sendData();
 
 };
 

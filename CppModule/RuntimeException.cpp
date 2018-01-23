@@ -1,7 +1,8 @@
 //
 // Created by Peter Zheng on 2018/01/13.
 //
-
+#pragma once
+#include <csignal>
 #include "RuntimeException.h"
 
 const char *RuntimeException::what() {
@@ -20,6 +21,7 @@ RuntimeException::RuntimeException(_Uint code, std::string message) {
         } else {
 //            throw std::bad_alloc();
             //TODO : 抛出分配异常错误
+            int d = raise(SIGSEGV);
         }
     } else {
         _message_char = new char[20];
